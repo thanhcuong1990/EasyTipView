@@ -241,7 +241,7 @@ open class EasyTipView: UIView {
     fileprivate weak var delegate: EasyTipViewDelegate?
     fileprivate var arrowTip = CGPoint.zero
     fileprivate(set) open var preferences: Preferences
-    open var text: String
+    open let text: String
     
     // MARK: - Lazy variables -
     
